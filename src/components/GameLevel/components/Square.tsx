@@ -64,7 +64,7 @@ const Square: React.FC<SquareProps> = ({
 
   return (
     <div
-      className={`square hover:brightness-75 ${borderClasses}`}
+      className={`square @media (hover: hover) {hover:brightness-75} ${borderClasses}`}
       onPointerDown={onPointerDown}
       onPointerEnter={onPointerEnter}
       onPointerUp={onPointerUp}

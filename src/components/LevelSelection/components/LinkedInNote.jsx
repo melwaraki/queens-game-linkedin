@@ -25,7 +25,7 @@ const LinkedInNote = ({ className = "" }) => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <LinkedInIcon className="w-5 text-[#0a66c2] hover:brightness-75" />
+        <LinkedInIcon className="w-5 text-[#0a66c2] @media (hover: hover) {hover:brightness-75}" />
       </a>
     </div>
   );
